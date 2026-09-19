@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mobi MG | Scooter e Moto Elétrica em São Lourenço</title>
+<meta name="description" content="Conheça a Mobi MG, especializada em scooters e motos elétricas em São Lourenço - MG.">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/barlow-condensed-400.woff2" crossorigin>
+<link rel="preload" as="image" href="assets/st_soma.webp" imagesrcset="assets/st_soma-s.webp 700w, assets/st_soma.webp 1165w" imagesizes="(max-width:900px) 90vw, 56vw">
+<meta name="theme-color" content="#181818">
+<link rel="icon" href="data:image/png;base64,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">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mobi MG | Scooter e Moto Elétrica em São Lourenço">
+<meta property="og:description" content="Scooters elétricas sem CNH e sem placa. Vendas, assistência técnica, peças e acessórios em São Lourenço - MG.">
+<meta property="og:locale" content="pt_BR">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Store","name":"Mobi MG — Scooter e Moto Elétrica","description":"Venda de scooters elétricas, assistência técnica, peças e acessórios.","telephone":"+55 35 99266-0411","address":{"@type":"PostalAddress","addressLocality":"São Lourenço","addressRegion":"MG","addressCountry":"BR"},"sameAs":["https://www.instagram.com/mobi_mg_/"]}
+</script>
+<style>
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/barlow-condensed-400.woff2) format('woff2')}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/barlow-condensed-500.woff2) format('woff2')}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/barlow-400.woff2) format('woff2')}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/barlow-500.woff2) format('woff2')}
+:root{
+  --carbon:#202020; --deep:#181818; --black:#000; --white:#fff; --marble:#f5f5f5;
+  --graphite:#494949; --steel:#7d7d7d; --ash:#969696; --anvil:#313131;
+  --orange:#c94e1c; --orange-hi:#ee7440; --orange-dk:#a63f14;
+  --display:'Barlow Condensed',Rajdhani,'Arial Narrow',sans-serif;
+  --body:'Barlow',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --track:.023em;
+  --pad:clamp(20px,5vw,80px);
+  --max:1440px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--body);font-size:17px;line-height:1.55;color:var(--carbon);background:var(--white);overflow-x:hidden;overflow-x:clip}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--orange-hi);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--white);padding:12px 16px;z-index:200}
+.skip:focus{left:12px;top:12px}
+
+/* type */
+.d{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:var(--track)}
+.h-hero{font-size:clamp(58px,9.4vw,136px);line-height:.9}
+.h-xl{font-size:clamp(42px,6vw,88px);line-height:.95}
+.h-lg{font-size:clamp(34px,4.2vw,58px);line-height:1}
+.h-md{font-size:clamp(26px,2.4vw,34px);line-height:1.1}
+.lead{font-size:clamp(17px,1.4vw,20px);max-width:36ch}
+.small{font-family:var(--display);font-size:14px;text-transform:uppercase;letter-spacing:.06em}
+.muted{color:var(--steel)}
+.on-dark{color:var(--white)}
+.on-dark .muted{color:var(--ash)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:56px;padding:0 28px;font-family:var(--display);font-size:17px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;transition:background-color .2s,color .2s,border-color .2s}
+.btn svg{width:18px;height:18px;flex:none;transition:transform .25s}
+.btn:hover svg{transform:translateX(4px)}
+.btn-primary{background:var(--orange);color:var(--white)}
+.btn-primary:hover{background:var(--orange-dk)}
+.btn-line{border:1px solid var(--ash);color:var(--white)}
+.btn-line:hover{border-color:var(--white)}
+.btn-line.dark{color:var(--carbon);border-color:var(--steel)}
+.btn-line.dark:hover{border-color:var(--carbon)}
+.btn-ghost{min-height:44px;padding:0;gap:10px}
+.btn-ghost:hover{color:var(--orange)}
+
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+section{position:relative}
+
+/* header */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:100;padding-top:env(safe-area-inset-top,0px);transition:background-color .3s,transform .45s cubic-bezier(.2,.7,.2,1)}
+.hdr.hide{transform:translateY(-100%)}
+.prog{position:fixed;left:0;right:0;top:0;height:2px;background:var(--orange-hi);transform-origin:0 50%;transform:scaleX(0);z-index:101;pointer-events:none}
+.hdr.solid{background:var(--deep)}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:24px}
+.logo{display:flex;align-items:center;line-height:1}
+.logo-img{height:56px;width:auto}
+@media (max-width:900px){.logo-img{height:46px}}
+.ftr .logo-img{height:64px}
+.logo-mobi{font-family:var(--body);font-weight:500;font-size:30px;letter-spacing:-.02em;background:linear-gradient(90deg,#f07b4f,#f5a93a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo-mg{font-family:var(--display);font-size:18px;color:var(--white);letter-spacing:.04em}
+.nav{display:flex;align-items:center;gap:36px}
+.nav a.lk{font-family:var(--display);font-size:16px;text-transform:uppercase;letter-spacing:.06em;color:#d6d6d6;padding:8px 0;position:relative}
+.nav a.lk::after{content:"";position:absolute;left:0;right:100%;bottom:2px;height:1px;background:var(--orange-hi);transition:right .25s}
+.nav a.lk:hover{color:var(--white)}
+.nav a.lk:hover::after{right:0}
+.nav .btn{min-height:46px;padding:0 20px;font-size:15px}
+.burger{display:none;width:48px;height:48px;align-items:center;justify-content:center;color:var(--white)}
+.burger span{display:block;width:26px;height:1.5px;background:currentColor;position:relative;transition:background .2s}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:26px;height:1.5px;background:currentColor;transition:transform .25s}
+.burger span::before{top:-8px}.burger span::after{top:8px}
+.menu-open .burger span{background:transparent}
+.menu-open .burger span::before{transform:translateY(8px) rotate(45deg)}
+.menu-open .burger span::after{transform:translateY(-8px) rotate(-45deg)}
+
+@keyframes cue{to{top:110%}}
+
+/* hero — palco de showroom */
+.stage{position:relative;min-height:100vh;min-height:100svh;background:#0c0c0c;color:var(--white);overflow:hidden;isolation:isolate}
+.stage-vis{position:absolute;inset:0;z-index:0}
+.stage-bg{position:absolute;inset:0;background:radial-gradient(ellipse 46% 58% at 67% 38%,#3d3d3d 0%,#202020 40%,#0c0c0c 78%)}
+.stage-bg::before{content:"";position:absolute;left:50%;top:-10%;width:34vw;height:70%;transform:translateX(18%);background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,0));clip-path:polygon(40% 0,60% 0,100% 100%,0 100%);opacity:.9;mask-image:linear-gradient(90deg,transparent,#000 30%,#000 70%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 30%,#000 70%,transparent)}
+.stage-bg::after{content:"";position:absolute;left:0;right:0;top:65%;bottom:0;background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,0) 70%);border-top:1px solid rgba(255,255,255,.08)}
+.stage-names{position:absolute;left:0;right:0;top:8%;height:40%;pointer-events:none}
+.stage-names span{position:absolute;left:0;right:0;top:0;text-align:center;font-family:var(--display);text-transform:uppercase;letter-spacing:var(--track);font-size:clamp(140px,25vw,430px);line-height:.8;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.17);white-space:nowrap;opacity:0;transform:translateY(10%);transition:opacity .7s,transform 1.1s cubic-bezier(.16,1,.3,1)}
+.stage-names span.on{opacity:1;transform:none}
+.stage-bikes{position:absolute;left:36%;right:5%;top:11%;bottom:35%;will-change:transform}
+.bike{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;opacity:0;transform:translateX(26vw);filter:blur(16px);transition:opacity .55s,transform 1.05s cubic-bezier(.16,1,.3,1),filter .85s cubic-bezier(.16,1,.3,1)}
+.bike.on{opacity:1;transform:none;filter:none}
+.bike.out{opacity:0;transform:translateX(-22vw);filter:blur(16px);transition:opacity .45s .1s,transform .7s cubic-bezier(.7,0,.84,0),filter .5s}
+.bike img{max-width:100%;max-height:100%;width:auto;height:auto;position:relative;z-index:1;-webkit-box-reflect:below 1px linear-gradient(transparent 72%,rgba(255,255,255,.16))}
+.bike::after{content:"";position:absolute;left:18%;right:18%;bottom:-4%;height:9%;background:radial-gradient(ellipse at center,rgba(0,0,0,.85),rgba(0,0,0,0) 70%);z-index:0}
+.stage-copy{position:absolute;left:max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)));bottom:clamp(40px,8vh,88px);width:min(40vw,620px);z-index:2}
+.stage-logo{height:clamp(72px,7.4vw,118px);width:auto;margin-bottom:30px}
+.js .stage-logo{opacity:0;transform:translateY(16px) scale(.96);transform-origin:0 100%;transition:opacity 1s .2s,transform 1.2s cubic-bezier(.16,1,.3,1) .2s}
+.js.ready .stage-logo{opacity:1;transform:none}
+/* logo do header aparece só depois de sair do hero */
+.hdr .logo{transition:opacity .4s,transform .4s}
+.hdr:not(.solid):not(.nav-open) .logo{opacity:0;transform:translateY(-6px);pointer-events:none}
+.hero-kicker{font-family:var(--display);font-size:16px;letter-spacing:.06em;text-transform:uppercase;color:var(--orange-hi);margin-bottom:24px}
+.stage h1{font-size:clamp(52px,6.4vw,108px);line-height:.9}
+.stage h1 .ln{display:block;overflow:hidden;padding-top:.08em;margin-top:-.08em}
+.stage h1 .ln>span{display:block}
+.stage-sub{margin:26px 0 34px;color:#bdbdbd;max-width:32ch}
+.stage-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.stage-meta{position:absolute;right:max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)));bottom:clamp(40px,8vh,88px);z-index:2;display:flex;flex-direction:column;align-items:flex-end;gap:22px;text-align:right}
+.meta-info{transition:opacity .24s,transform .24s}
+.meta-info.swap{opacity:0;transform:translateY(8px)}
+.meta-top{display:flex;align-items:baseline;justify-content:flex-end;gap:16px}
+.meta-count{font-family:var(--display);font-size:14px;letter-spacing:.08em;color:var(--ash)}
+.meta-name{font-family:var(--display);font-size:clamp(34px,3vw,46px);line-height:1;letter-spacing:var(--track);text-transform:uppercase}
+.meta-specs{display:flex;justify-content:flex-end;gap:28px;margin-top:14px}
+.meta-specs dt{font-family:var(--display);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--steel)}
+.meta-specs dd{font-family:var(--display);font-size:24px;letter-spacing:var(--track)}
+.meta-link{color:var(--white);margin-top:10px}
+.meta-link:hover{color:var(--orange-hi)}
+.ctrl{display:flex;align-items:center;gap:20px}
+.pips{display:flex;gap:10px}
+.pip{width:44px;height:28px;position:relative}
+.pip::before,.pip i{content:"";position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;background:rgba(255,255,255,.22)}
+.pip i{background:var(--white);transform:scaleX(0);transform-origin:0 50%}
+.pip.on i{animation:fill var(--dur,4.2s) linear forwards}
+.stage.paused .pip.on i,.stage.off .pip.on i{animation-play-state:paused}
+@keyframes fill{to{transform:scaleX(1)}}
+.hex{width:46px;height:50px;display:flex;align-items:center;justify-content:center;color:var(--white)}
+.hex svg{width:46px;height:50px}
+.hex .ic-play{display:none}
+.stage.paused .hex .ic-play{display:block}
+.stage.paused .hex .ic-pause{display:none}
+.hex:hover polygon{stroke:var(--orange-hi)}
+.js .stage h1 .ln>span{transform:translateY(105%);transition:transform 1.1s cubic-bezier(.16,1,.3,1) .35s}
+.js .stage .fade{opacity:0;transition:opacity 1s .9s}
+.js .stage-bg{opacity:0;transition:opacity 1.6s}
+.js.ready .stage h1 .ln>span{transform:none}
+.js.ready .stage h1 .ln:nth-child(2)>span{transition-delay:.43s}
+.js.ready .stage h1 .ln:nth-child(3)>span{transition-delay:.51s}
+.js.ready .stage .fade,.js.ready .stage-bg{opacity:1}
+.concept-fig{aspect-ratio:4/4.4;overflow:hidden}
+.concept .concept-fig img{width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+
+/* chevron band — o padrão da parede da loja */
+.chevrons{height:30px;position:relative;overflow:hidden;background-color:#d4d4d4}
+.chevrons::before{content:"";position:absolute;top:0;bottom:0;left:-44px;right:0;animation:chev 2.4s linear infinite;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='30'%3E%3Cpolygon points='4,0 20,0 36,15 20,30 4,30 20,15' fill='%23202020'/%3E%3C/svg%3E");background-size:44px 30px}
+@keyframes chev{to{transform:translate3d(44px,0,0)}}
+
+/* conceito */
+.concept{background:var(--marble);padding:clamp(80px,10vw,160px) 0;overflow:hidden}
+.concept .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(40px,6vw,96px);align-items:center}
+.concept p.lead{margin-top:28px;color:var(--anvil)}
+.stats{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:clamp(24px,4vw,56px);margin-top:56px;padding-top:28px;border-top:1px solid var(--ash)}
+.stat b{display:block;font-family:var(--display);font-weight:400;font-size:clamp(40px,4vw,56px);line-height:1;letter-spacing:var(--track)}
+.stat span{display:block;margin-top:8px;font-size:15px;color:var(--graphite);max-width:14ch}
+.concept figure img{width:100%;height:auto}
+.concept figcaption{margin-top:12px;text-align:right}
+
+/* benefícios */
+.benefits{background:var(--carbon);color:var(--white);padding:clamp(80px,10vw,140px) 0}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:clamp(48px,6vw,80px)}
+.sec-head p{max-width:34ch}
+.b-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.b-item{padding:32px 32px 8px 0;border-top:1px solid var(--graphite);position:relative}
+.b-item::before{content:"";position:absolute;top:-1px;left:0;width:40px;height:2px;background:var(--orange-hi)}
+.b-item h3{margin-bottom:14px}
+.b-item p{color:#bdbdbd;font-size:16px;max-width:30ch}
+.law{margin-top:56px;font-size:14px;color:var(--steel)}
+
+/* modelos */
+.models{background:var(--white);padding:clamp(80px,10vw,150px) 0}
+.m-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{display:flex;flex-direction:column;background:var(--marble)}
+.card-media{position:relative;aspect-ratio:1/1;background:var(--white);overflow:hidden;border:0;padding:0;width:100%;cursor:zoom-in}
+.card-media img{width:100%;height:100%;object-fit:contain;padding:6%;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.card-media img.cover{object-fit:cover;padding:0}
+.card:hover .card-media img{transform:scale(1.05)}
+.card-body{position:relative}
+.card-body::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:100%;background:var(--orange);transform:scaleX(0);transform-origin:0 50%;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.card:hover .card-body::after{transform:scaleX(1)}
+.card.wide{grid-column:1/-1;flex-direction:row}
+.card.wide .card-media{flex:1.25;aspect-ratio:auto;min-height:440px}
+.card.wide .card-body{flex:1;padding:48px;justify-content:center}
+.card.wide .tag{min-height:0;font-size:19px;max-width:34ch}
+.card.wide .card-acts{margin-top:0;max-width:460px}
+.card.wide h3{font-size:clamp(48px,5vw,80px)}
+.card-type{position:absolute;left:0;top:0;background:var(--carbon);color:var(--white);padding:8px 14px}
+.card-body{padding:28px 28px 32px;display:flex;flex-direction:column;flex:1}
+.card-body h3{margin-bottom:6px}
+.card-body .tag{color:var(--anvil);min-height:3.1em}
+.specs{display:grid;grid-template-columns:1fr 1fr;margin:24px 0 28px;border-top:1px solid #d9d9d9}
+.specs div{padding:14px 0 0}
+.specs dt{font-size:13px;color:var(--steel);text-transform:uppercase;letter-spacing:.06em;font-family:var(--display)}
+.specs dd{font-family:var(--display);font-size:30px;line-height:1.1;letter-spacing:var(--track)}
+.card-acts{margin-top:auto;display:flex;gap:10px;flex-wrap:wrap}
+.card-acts .btn{flex:1 1 auto;min-height:52px;padding:0 18px;font-size:16px}
+.note{margin-top:32px;font-size:14px;color:var(--steel);max-width:80ch}
+
+.mq{background:var(--deep);color:var(--white);padding:clamp(56px,8vw,112px) 0 clamp(40px,6vw,88px);overflow:hidden}
+.mq-row{display:flex;align-items:center;gap:clamp(24px,3vw,48px);white-space:nowrap;font-family:var(--display);text-transform:uppercase;letter-spacing:var(--track);font-size:clamp(64px,11vw,180px);line-height:1}
+.mq-row.out{color:transparent;-webkit-text-stroke:1px #6a6a6a}
+.mq-row svg{flex:none;width:.42em;height:.42em;color:var(--orange-hi)}
+.mq-row.out svg{color:#6a6a6a}
+
+/* experiência */
+.exp{background:var(--deep);color:var(--white);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center}
+.exp-img{position:relative;width:100%;min-width:0;height:auto;align-self:start;aspect-ratio:1100/1277;overflow:hidden}
+.exp-img img{position:absolute;inset:-4% 0;width:100%;height:108%;object-fit:cover;object-position:50% 50%}
+.exp-txt{padding:clamp(64px,8vw,120px) var(--pad);display:flex;flex-direction:column;justify-content:center}
+.exp-txt .lead{margin:28px 0 44px;color:#cfcfcf}
+.services{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--graphite);margin-bottom:48px;max-width:520px}
+.services li{list-style:none;padding:18px 0;border-bottom:1px solid var(--graphite);font-family:var(--display);font-size:22px;text-transform:uppercase;letter-spacing:var(--track)}
+.services li:nth-child(odd){padding-right:16px}
+
+/* loja */
+.store{background:var(--marble);padding:clamp(80px,10vw,150px) 0}
+.store .wrap{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(40px,5vw,80px);align-items:end}
+.store figure{overflow:hidden}
+.store figure img{width:100%;height:auto;transform:scale(1.1)}
+.store-info .lead{margin:24px 0 36px;color:var(--anvil)}
+.addr{border-top:1px solid var(--ash);margin-bottom:36px}
+.addr div{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid #d4d4d4}
+.addr dt{color:var(--steel);font-size:15px}
+.addr dd{font-family:var(--display);font-size:20px;text-transform:uppercase;letter-spacing:var(--track);text-align:right}
+.store-ctas{display:flex;flex-wrap:wrap;gap:12px}
+
+/* avaliações (aparece só com avaliações reais cadastradas) */
+.reviews{background:var(--white);padding:clamp(80px,10vw,140px) 0}
+.reviews[hidden]{display:none}
+.r-track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(300px,420px);gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:16px}
+.r-card{scroll-snap-align:start;background:var(--marble);padding:32px;display:flex;flex-direction:column;gap:20px}
+.r-stars{color:var(--orange);letter-spacing:4px;font-size:15px}
+.r-card blockquote{font-size:17px;color:var(--anvil)}
+.r-card cite{font-style:normal;font-family:var(--display);text-transform:uppercase;letter-spacing:var(--track);font-size:17px;margin-top:auto}
+
+/* cta final */
+.final{position:relative;min-height:86vh;display:flex;align-items:flex-end;color:var(--white);overflow:hidden;background:var(--black)}
+.final img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:40% 50%;opacity:.55;transform:scale(1.25);transform-origin:50% 60%}
+.final::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.85),rgba(0,0,0,0) 70%);z-index:1}
+.final .wrap{position:relative;z-index:2;width:100%;padding-top:120px;padding-bottom:clamp(64px,8vw,112px)}
+.final .lead{margin:28px 0 40px;color:#dedede}
+
+/* footer */
+.ftr{background:var(--deep);color:#bdbdbd;padding:72px 0 calc(40px + env(safe-area-inset-bottom,0px))}
+.ftr-top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:56px;border-bottom:1px solid var(--anvil)}
+.ftr h4{font-family:var(--display);font-weight:400;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--steel);margin-bottom:18px}
+.ftr ul{list-style:none;display:grid;gap:10px}
+.ftr ul a:hover{color:var(--white)}
+.ftr-tag{margin-top:14px;max-width:32ch}
+.ftr-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:28px;font-size:14px;color:var(--steel)}
+.ftr-bot a:hover{color:var(--white)}
+
+/* WhatsApp fixo no celular */
+.wa-bar{display:none}
+
+/* modal */
+dialog.mdl{border:0;padding:0;max-width:min(1180px,100vw);width:100%;max-height:100dvh;margin:auto;background:var(--white);color:var(--carbon)}
+dialog.mdl::backdrop{background:rgba(0,0,0,.78)}
+.mdl-in{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);grid-template-rows:100%;height:min(92dvh,780px)}
+.mdl-gal{background:var(--white);display:flex;flex-direction:column;border-right:1px solid #e3e3e3;min-height:0}
+.mdl-main{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:24px}
+.mdl-main img{max-height:100%;max-width:100%;width:auto;object-fit:contain}
+.mdl-thumbs{display:flex;gap:8px;padding:0 24px 24px;overflow-x:auto}
+.mdl-thumbs button{flex:none;width:72px;height:72px;background:var(--marble);border:1px solid transparent;opacity:.6;transition:opacity .2s}
+.mdl-thumbs button[aria-current="true"]{border-color:var(--carbon);opacity:1}
+.mdl-thumbs img{width:100%;height:100%;object-fit:contain}
+.mdl-info{padding:40px;overflow-y:auto}
+.mdl-info .tag{margin:10px 0 24px;color:var(--anvil)}
+.mdl-list{list-style:none;border-top:1px solid #dcdcdc;margin-bottom:28px}
+.mdl-list li{padding:11px 0;border-bottom:1px solid #ececec;font-size:16px}
+.mdl-close{position:absolute;top:10px;right:10px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:var(--carbon);color:var(--white);z-index:2}
+.mdl-close svg{width:18px;height:18px}
+.mdl-note{font-size:13px;color:var(--steel);margin-top:16px}
+
+/* entrada da primeira tela */
+.js .rv{opacity:0;transform:translateY(32px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+/* títulos palavra por palavra */
+.w{display:inline-block;overflow:hidden;vertical-align:top;padding:.14em .02em .04em;margin:-.14em -.02em -.04em}
+.w>span{display:inline-block}
+.js .split .w>span{transform:translateY(110%) rotate(4deg);transform-origin:0 100%;transition:transform 1s cubic-bezier(.16,1,.3,1)}
+.js .split.in .w>span{transform:none}
+/* imagens entrando com cortina */
+.js .wipe{clip-path:inset(100% 0 0 0);transition:clip-path 1.2s cubic-bezier(.77,0,.18,1)}
+.js .wipe.in{clip-path:inset(0 0 0 0)}
+.js .wipe>img,.js .wipe .card-media img{scale:1.18;transition:scale 1.6s cubic-bezier(.16,1,.3,1),transform .5s cubic-bezier(.2,.7,.2,1)}
+.js .wipe.in>img,.js .wipe.in .card-media img{scale:1}
+/* scooter "chegando" na seção de conceito */
+.js .drive{opacity:0;transform:translateX(22%);filter:blur(10px);transition:opacity 1s,transform 1.6s cubic-bezier(.16,1,.3,1),filter 1.2s}
+.js .drive.in{opacity:1;transform:none;filter:none}
+/* linha laranja dos benefícios crescendo */
+.js .b-item::before{width:0;transition:width .9s cubic-bezier(.16,1,.3,1) .2s}
+.js .b-item.in::before{width:40px}
+
+
+
+/* modo leve: sem desfoque, reflexo e parallax em celular e aparelhos fracos */
+.lite .bike,.lite .bike.out{filter:none}
+.lite .bike img{-webkit-box-reflect:none}
+.lite .bike{transition:opacity .45s,transform .8s cubic-bezier(.16,1,.3,1)}
+.lite .bike.out{transition:opacity .35s,transform .55s cubic-bezier(.7,0,.84,0)}
+.lite .stage-bikes{will-change:auto}
+.lite .store figure img{transform:none}
+.lite .final img{transform:none}
+.lite .exp-img img{inset:0;height:100%}
+.lite .wipe>img,.lite .wipe .card-media img{scale:1}
+.lite .split .w>span{transition-duration:.7s}
+@media (pointer:coarse){.pip{height:44px}.hex{width:48px;height:48px}}
+/* responsivo */
+@media (min-width:901px) and (max-height:800px){
+  .stage-logo{height:64px;margin-bottom:20px}
+  .stage-bikes{top:12%;bottom:40%}
+  .stage-bg::after{top:60%}
+  .stage-meta{gap:14px}
+  .meta-specs{margin-top:8px}
+  .meta-link{margin-top:2px;min-height:36px}
+}
+@media (max-width:1100px){
+  .card.wide{flex-direction:column}
+  .card.wide .card-media{aspect-ratio:16/11;min-height:0}
+  .card.wide .card-body{padding:28px 28px 32px}
+  .b-grid{grid-template-columns:1fr 1fr;row-gap:48px}
+  .m-grid{grid-template-columns:1fr 1fr}
+  .ftr-top{grid-template-columns:1fr 1fr}
+  .ftr-top>div:first-child{grid-column:1/-1}
+}
+@media (max-width:900px){
+  .nav{position:fixed;inset:0;background:var(--deep);flex-direction:column;align-items:flex-start;justify-content:center;gap:8px;padding:96px var(--pad) 40px;transform:translateY(-100%);visibility:hidden;transition:transform .45s cubic-bezier(.7,0,.2,1),visibility 0s .45s}
+  .menu-open .nav{transform:none;visibility:visible;transition:transform .45s cubic-bezier(.7,0,.2,1)}
+  .nav a.lk{font-size:44px;color:var(--white);letter-spacing:var(--track)}
+  .nav .btn{margin-top:28px;min-height:56px;font-size:17px;width:100%}
+  .burger{display:flex;position:relative;z-index:2}
+  .menu-open .hdr{background:var(--deep)}
+  .stage{display:flex;flex-direction:column;min-height:0}
+  .stage-vis{position:relative;height:56svh;min-height:380px}
+  .stage-bg{background:radial-gradient(ellipse 80% 55% at 50% 58%,#3d3d3d 0%,#1f1f1f 45%,#0c0c0c 85%)}
+  .stage-bg::before{left:25%;width:60vw;transform:none}
+  .stage-bg::after{top:88%}
+  .stage-names{top:88px}
+  .stage-names span{font-size:31vw}
+  .stage-bikes{left:5%;right:5%;top:30%;bottom:12%}
+  .stage-copy{position:relative;left:auto;bottom:auto;width:auto;padding:12px var(--pad) 32px}
+  .hero-kicker{margin-bottom:16px}
+  .stage-logo{height:64px;margin-bottom:22px}
+  .stage-sub{margin:20px 0 28px}
+  .stage-meta{position:relative;right:auto;bottom:auto;align-items:stretch;text-align:left;padding:28px var(--pad) 44px;margin:0 var(--pad);padding-left:0;padding-right:0;border-top:1px solid var(--anvil)}
+  .meta-top,.meta-specs{justify-content:flex-start}
+  .ctrl{justify-content:space-between}
+  .concept .wrap,.store .wrap{grid-template-columns:1fr}
+  .concept figure{order:-1}
+  .exp{grid-template-columns:1fr;min-height:0}
+  .exp-img{aspect-ratio:1100/1277}
+  .sec-head{flex-direction:column;align-items:flex-start}
+  .mdl-in{grid-template-columns:minmax(0,1fr);grid-template-rows:auto;height:auto;max-height:100dvh;overflow-y:auto}
+  .mdl-main{height:44dvh}
+  .mdl-gal{border-right:0;border-bottom:1px solid #e3e3e3}
+  .mdl-main img{max-height:100%}
+  .mdl-info{overflow:visible;padding:28px var(--pad) 40px}
+  .wa-bar{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:90;transform:translateY(160%);transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+  .wa-bar.show{transform:none}
+  .wa-bar .btn{width:100%;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+  .ftr{padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))}
+}
+@media (max-width:640px){
+  .card.wide .card-media{aspect-ratio:1/1}
+  body{font-size:16px}
+  .m-grid{grid-template-columns:1fr}
+  .b-grid{grid-template-columns:1fr;row-gap:40px}
+  .stats{grid-template-columns:repeat(3,1fr);gap:16px}
+  .stat span{font-size:13px}
+  .stat b{font-size:32px}
+  .stage-ctas .btn,.store-ctas .btn,.final .btn,.exp-txt .btn{width:100%}
+  .services li{font-size:19px}
+  .addr div{flex-direction:column;gap:4px}
+  .addr dd{text-align:left}
+  .ftr-top{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js .split .w>span,.js .drive{transform:none;opacity:1;filter:none}
+  .js .wipe{clip-path:none}
+  .js .wipe>img,.js .wipe .card-media img{scale:1}
+  .js .b-item::before{width:40px}
+  .exp-img img,.store figure img,.final img,.stage-bikes,.stage-names{transform:none}
+  html{scroll-behavior:auto}
+  .js .rv,.js .stage .fade{opacity:1;transform:none}
+  .js .stage h1 .ln>span{transform:none}
+  .js .stage-logo{opacity:1;transform:none}
+  .bike,.stage-names span{transition:none!important}
+}
+@media (prefers-reduced-motion:reduce) and (max-width:900px){
+}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<div class="prog" id="prog" aria-hidden="true"></div>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="hdr" id="hdr">
+  <div class="wrap">
+    <a href="#inicio" class="logo" aria-label="Mobi MG — início"><img class="logo-img" src="assets/logo.webp" alt="Mobi MG" width="394" height="230"></a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a class="lk" href="#inicio">Início</a>
+      <a class="lk" href="#modelos">Modelos</a>
+      <a class="lk" href="#mobi">A Mobi MG</a>
+      <a class="lk" href="#loja">Localização</a>
+      <a class="btn btn-primary" data-wa href="#">Falar no WhatsApp</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span></button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<section class="stage" id="inicio" aria-labelledby="hero-t" aria-roledescription="carrossel">
+  <div class="stage-vis" aria-hidden="true">
+    <div class="stage-bg"></div>
+    <div class="stage-names"><span>SOMA</span><span>X12</span><span>BIGTRI</span><span>JET</span><span>MIA TRI</span></div>
+    <div class="stage-bikes"><div class="bike" data-id="soma" data-name="SOMA" data-motor="1000W" data-aut="40 km"><img src="assets/st_soma.webp" srcset="assets/st_soma-s.webp 700w, assets/st_soma.webp 1165w" sizes="(max-width:900px) 90vw, 56vw" alt="" width="1165" height="871" fetchpriority="high"></div><div class="bike" data-id="x12" data-name="X12" data-motor="1000W" data-aut="40 km"><img data-src="assets/st_x12.webp" alt="" width="632" height="745"></div><div class="bike" data-id="bigtri" data-name="BIGTRI" data-motor="1000W" data-aut="55 km"><img data-src="assets/st_bigtri.webp" data-srcset="assets/st_bigtri-s.webp 700w, assets/st_bigtri.webp 958w" sizes="(max-width:900px) 90vw, 56vw" alt="" width="958" height="865"></div><div class="bike" data-id="jet" data-name="JET" data-motor="1000W" data-aut="40 km"><img data-src="assets/st_jet.webp" data-srcset="assets/st_jet-s.webp 700w, assets/st_jet.webp 936w" sizes="(max-width:900px) 90vw, 56vw" alt="" width="936" height="869"></div><div class="bike" data-id="mia" data-name="MIA TRI" data-motor="800W" data-aut="40 km"><img data-src="assets/st_mia.webp" data-srcset="assets/st_mia-s.webp 700w, assets/st_mia.webp 1165w" sizes="(max-width:900px) 90vw, 56vw" alt="" width="1165" height="966"></div></div>
+  </div>
+  <div class="stage-copy">
+    <img class="stage-logo" src="assets/logo.webp" alt="Mobi MG" width="394" height="230">
+    <p class="hero-kicker fade">Scooters elétricas em São Lourenço</p>
+    <h1 class="d" id="hero-t"><span class="ln"><span>Um novo</span></span><span class="ln"><span>jeito de</span></span><span class="ln"><span>se mover.</span></span></h1>
+    <p class="lead stage-sub fade">Scooters e motos elétricas para transformar sua mobilidade no dia a dia.</p>
+    <div class="stage-ctas fade">
+      <a class="btn btn-primary" href="#modelos">Conheça os modelos <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 9h15M10 3l6 6-6 6"/></svg></a>
+      <a class="btn btn-line" data-wa href="#">Falar no WhatsApp</a>
+    </div>
+  </div>
+  <div class="stage-meta fade">
+    <div class="meta-info" id="meta-info">
+      <div class="meta-top"><span class="meta-count" id="meta-count">01 / 05</span><span class="meta-name" id="meta-name">SOMA</span></div>
+      <dl class="meta-specs"><div><dt>Motor</dt><dd id="meta-motor">1000W</dd></div><div><dt>Autonomia*</dt><dd id="meta-aut">40 km</dd></div><div><dt>Velocidade</dt><dd>32 km/h</dd></div></dl>
+      <button class="btn btn-ghost meta-link" id="meta-link" data-model="soma">Ver ficha <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 9h15M10 3l6 6-6 6"/></svg></button>
+    </div>
+    <div class="ctrl">
+      <div class="pips" id="pips"><button class="pip" aria-label="Mostrar SOMA"><i></i></button><button class="pip" aria-label="Mostrar X12"><i></i></button><button class="pip" aria-label="Mostrar BIGTRI"><i></i></button><button class="pip" aria-label="Mostrar JET"><i></i></button><button class="pip" aria-label="Mostrar MIA TRI"><i></i></button></div>
+      <button class="hex" id="hex" aria-label="Pausar apresentação"><svg viewBox="0 0 46 50" fill="none" stroke="currentColor" stroke-width="1.2"><polygon points="23,1 45,13.5 45,36.5 23,49 1,36.5 1,13.5"/><g class="ic-pause" stroke-width="1.6"><path d="M19 19v12M27 19v12"/></g><g class="ic-play" fill="currentColor" stroke="none"><path d="M19 17.5l11 7.5-11 7.5z"/></g></svg></button>
+    </div>
+  </div>
+</section>
+
+<div class="chevrons" aria-hidden="true"></div>
+
+<section class="concept" id="conceito" aria-labelledby="c-t">
+  <div class="wrap">
+    <div class="rv">
+      <h2 class="d h-xl" id="c-t" data-split>Mobilidade que acompanha o seu ritmo.</h2>
+      <p class="lead">Mais praticidade para a rotina. Mais liberdade para se deslocar. Uma nova experiência para quem escolhe se mover de um jeito diferente.</p>
+      <div class="stats">
+        <div class="stat"><b data-count="7">7</b><span>modelos no catálogo</span></div>
+        <div class="stat"><b data-count="55" data-suf=" km">55 km</b><span>de autonomia máxima no catálogo*</span></div>
+        <div class="stat"><b data-count="32" data-suf=" km/h">32 km/h</b><span>de velocidade máxima, sem CNH e sem placa</span></div>
+      </div>
+    </div>
+    <figure class="wipe concept-fig">
+      <img src="assets/loja_interior.webp" srcset="assets/loja_interior-s.webp 640w, assets/loja_interior.webp 1000w" sizes="(max-width:900px) 92vw, 45vw" alt="Showroom da Mobi MG com scooters elétricas e o letreiro 'Entre nesse movimento Scooter'" width="1111" height="1403" loading="lazy">
+    </figure>
+  </div>
+</section>
+
+<section class="benefits" aria-labelledby="b-t">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <h2 class="d h-lg" id="b-t" data-split>Feita para o dia a dia.</h2>
+      <p class="muted" style="color:var(--ash)">O que todos os modelos da Mobi MG têm em comum.</p>
+    </div>
+    <div class="b-grid">
+      <article class="b-item rv"><h3 class="d h-md">Sem CNH, sem placa</h3><p>São veículos autopropelidos. Você compra, sai da loja e já pode rodar.</p></article>
+      <article class="b-item rv"><h3 class="d h-md">Carrega na tomada</h3><p>Bateria de lítio com carregador bivolt. Na maioria dos modelos ela sai da scooter para recarregar em casa ou no trabalho.</p></article>
+      <article class="b-item rv"><h3 class="d h-md">Mais segurança</h3><p>Alarme antifurto com trava de motor e, em vários modelos, partida por cartão NFC.</p></article>
+      <article class="b-item rv"><h3 class="d h-md">Suporte na cidade</h3><p>Vendas, assistência técnica, peças e acessórios no mesmo endereço, aqui em São Lourenço.</p></article>
+    </div>
+    <p class="law">Dispensa de CNH e emplacamento para equipamentos autopropelidos conforme a Resolução CONTRAN nº 996/2023.</p>
+  </div>
+</section>
+
+<section class="models" id="modelos" aria-labelledby="m-t">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <h2 class="d h-xl" id="m-t" data-split>Encontre o seu próximo movimento.</h2>
+      <p class="muted">Toque na foto para ver a galeria e a ficha completa de cada modelo.</p>
+    </div>
+    <div class="m-grid">
+      <article class="card rv">
+        <button class="card-media" data-model="jet" aria-label="Ver fotos e ficha da JET">
+          <img src="assets/jet0.webp" srcset="assets/jet0-s.webp 560w, assets/jet0.webp 900w" sizes="(max-width:640px) 90vw, (max-width:1100px) 46vw, 30vw" width="900" height="900" alt="Scooter elétrica JET" loading="lazy">
+          <span class="card-type small">Scooter</span>
+        </button>
+        <div class="card-body">
+          <h3 class="d h-lg">JET</h3>
+          <p class="tag">Pegada esportiva, farol em camadas e freio a disco nas duas rodas.</p>
+          <dl class="specs"><div><dt>Motor</dt><dd>1000W</dd></div><div><dt>Autonomia*</dt><dd>40 km</dd></div></dl>
+          <div class="card-acts">
+            <a class="btn btn-primary" data-interest="JET" href="#">Tenho interesse</a>
+            <button class="btn btn-line dark" data-model="jet">Ver ficha</button>
+          </div>
+        </div>
+      </article>
+      <article class="card rv">
+        <button class="card-media" data-model="x12" aria-label="Ver fotos e ficha da X12">
+          <img src="assets/x120.webp" srcset="assets/x120-s.webp 560w, assets/x120.webp 648w" sizes="(max-width:640px) 90vw, (max-width:1100px) 46vw, 30vw" width="648" height="753" alt="Scooter elétrica X12" loading="lazy">
+          <span class="card-type small">Scooter</span>
+        </button>
+        <div class="card-body">
+          <h3 class="d h-lg">X12</h3>
+          <p class="tag">Pneus largos, banco duplo com encosto e partida por cartão NFC.</p>
+          <dl class="specs"><div><dt>Motor</dt><dd>1000W</dd></div><div><dt>Autonomia*</dt><dd>40 km</dd></div></dl>
+          <div class="card-acts">
+            <a class="btn btn-primary" data-interest="X12" href="#">Tenho interesse</a>
+            <button class="btn btn-line dark" data-model="x12">Ver ficha</button>
+          </div>
+        </div>
+      </article>
+      <article class="card rv">
+        <button class="card-media" data-model="dot" aria-label="Ver fotos e ficha da DOT">
+          <img src="assets/dot0.webp" srcset="assets/dot0-s.webp 560w, assets/dot0.webp 900w" sizes="(max-width:640px) 90vw, (max-width:1100px) 46vw, 30vw" width="900" height="969" alt="Scooter elétrica DOT" loading="lazy" class="cover">
+          <span class="card-type small">Scooter</span>
+        </button>
+        <div class="card-body">
+          <h3 class="d h-lg">DOT</h3>
+          <p class="tag">Freio hidráulico nas duas rodas, marcha à ré e baú incluso.</p>
+          <dl class="specs"><div><dt>Motor</dt><dd>1000W</dd></div><div><dt>Autonomia*</dt><dd>55 km</dd></div></dl>
+          <div class="card-acts">
+            <a class="btn btn-primary" data-interest="DOT" href="#">Tenho interesse</a>
+            <button class="btn btn-line dark" data-model="dot">Ver ficha</button>
+          </div>
+        </div>
+      </article>
+      <article class="card rv">
+        <button class="card-media" data-model="baw" aria-label="Ver fotos e ficha da BAW">
+          <img src="assets/baw0.webp" srcset="assets/baw0-s.webp 560w, assets/baw0.webp 600w" sizes="(max-width:640px) 90vw, (max-width:1100px) 46vw, 30vw" width="600" height="600" alt="Scooter elétrica BAW" loading="lazy">
+          <span class="card-type small">Scooter</span>
+        </button>
+        <div class="card-body">
+          <h3 class="d h-lg">BAW</h3>
+          <p class="tag">Cesto na frente, garupa com encosto atrás e entrada USB.</p>
+          <dl class="specs"><div><dt>Motor</dt><dd>1000W</dd></div><div><dt>Autonomia*</dt><dd>55 km</dd></div></dl>
+          <div class="card-acts">
+            <a class="btn btn-primary" data-interest="BAW" href="#">Tenho interesse</a>
+            <button class="btn btn-line dark" data-model="baw">Ver ficha</button>
+          </div>
+        </div>
+      </article>
+      <article class="card rv">
+        <button class="card-media" data-model="soma" aria-label="Ver fotos e ficha da SOMA">
+          <img src="assets/soma0.webp" srcset="assets/soma0-s.webp 560w, assets/soma0.webp 900w" sizes="(max-width:640px) 90vw, (max-width:1100px) 46vw, 30vw" width="900" height="674" alt="Scooter elétrica SOMA" loading="lazy">
+          <span class="card-type small">Scooter</span>
+        </button>
+        <div class="card-body">
+          <h3 class="d h-lg">SOMA</h3>
+          <p class="tag">Liga e vai: partida NFC, baú de 30 litros e lugar para dois.</p>
+          <dl class="specs"><div><dt>Motor</dt><dd>1000W</dd></div><div><dt>Autonomia*</dt><dd>40 km</dd></div></dl>
+          <div class="card-acts">
+            <a class="btn btn-primary" data-interest="SOMA" href="#">Tenho interesse</a>
+            <button class="btn btn-line dark" data-model="soma">Ver ficha</button>
+          </div>
+        </div>
+      </article>
+      <article class="card rv">
+        <button class="card-media" data-model="mia" aria-label="Ver fotos e ficha da MIA TRI">
+          <img src="assets/mia0.webp" srcset="assets/mia0-s.webp 560w, assets/mia0.webp 900w" sizes="(max-width:640px) 90vw, (max-width:1100px) 46vw, 30vw" width="900" height="715" alt="Triciclo elétrico MIA TRI" loading="lazy">
+          <span class="card-type small">Triciclo</span>
+        </button>
+        <div class="card-body">
+          <h3 class="d h-lg">MIA TRI</h3>
+          <p class="tag">Três rodas para ter equilíbrio desde a saída.</p>
+          <dl class="specs"><div><dt>Motor</dt><dd>800W</dd></div><div><dt>Autonomia*</dt><dd>40 km</dd></div></dl>
+          <div class="card-acts">
+            <a class="btn btn-primary" data-interest="MIA TRI" href="#">Tenho interesse</a>
+            <button class="btn btn-line dark" data-model="mia">Ver ficha</button>
+          </div>
+        </div>
+      </article>
+      <article class="card rv wide">
+        <button class="card-media" data-model="bigtri" aria-label="Ver fotos e ficha da BIGTRI">
+          <img src="assets/bigtri0.webp" srcset="assets/bigtri0-s.webp 560w, assets/bigtri0.webp 900w" sizes="(max-width:640px) 90vw, (max-width:1100px) 46vw, 30vw" width="900" height="900" alt="Triciclo elétrico BIGTRI" loading="lazy">
+          <span class="card-type small">Triciclo</span>
+        </button>
+        <div class="card-body">
+          <h3 class="d h-lg">BIGTRI</h3>
+          <p class="tag">Leva até 3 pessoas, com cadeirinha de criança, baú e marcha à ré.</p>
+          <dl class="specs"><div><dt>Motor</dt><dd>1000W</dd></div><div><dt>Autonomia*</dt><dd>55 km</dd></div></dl>
+          <div class="card-acts">
+            <a class="btn btn-primary" data-interest="BIGTRI" href="#">Tenho interesse</a>
+            <button class="btn btn-line dark" data-model="bigtri">Ver ficha</button>
+          </div>
+        </div>
+      </article>
+    </div>
+    <p class="note">*Autonomia máxima informada pelo fabricante. O alcance real varia conforme peso, relevo e modo de condução. Cores e versões sujeitas à disponibilidade na loja.</p>
+  </div>
+</section>
+
+<div class="mq" aria-hidden="true"><div class="mq-row "><span>Entre nesse movimento</span><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="2,0 10,0 18,10 10,20 2,20 10,10" fill="currentColor"/></svg><span>Entre nesse movimento</span><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="2,0 10,0 18,10 10,20 2,20 10,10" fill="currentColor"/></svg><span>Entre nesse movimento</span><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="2,0 10,0 18,10 10,20 2,20 10,10" fill="currentColor"/></svg><span>Entre nesse movimento</span><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="2,0 10,0 18,10 10,20 2,20 10,10" fill="currentColor"/></svg></div><div class="mq-row out"><span>Entre nesse movimento</span><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="2,0 10,0 18,10 10,20 2,20 10,10" fill="currentColor"/></svg><span>Entre nesse movimento</span><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="2,0 10,0 18,10 10,20 2,20 10,10" fill="currentColor"/></svg><span>Entre nesse movimento</span><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="2,0 10,0 18,10 10,20 2,20 10,10" fill="currentColor"/></svg><span>Entre nesse movimento</span><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="2,0 10,0 18,10 10,20 2,20 10,10" fill="currentColor"/></svg></div></div>
+
+<section class="exp" id="mobi" aria-labelledby="e-t">
+  <div class="exp-img wipe">
+    <img src="assets/loja_capacetes.webp" srcset="assets/loja_capacetes-s.webp 700w, assets/loja_capacetes.webp 1100w" sizes="(max-width:900px) 100vw, 50vw" alt="Capacetes com a marca Mobi MG expostos na prateleira da loja, sobre a parede laranja" width="1100" height="1277" loading="lazy">
+  </div>
+  <div class="exp-txt">
+    <h2 class="d h-xl" id="e-t" data-split>Mais do que um veículo. Uma nova experiência.</h2>
+    <p class="lead rv">Conheça de perto a mobilidade elétrica e encontre o modelo que combina com a sua rotina.</p>
+    <ul class="services rv" aria-label="Serviços">
+      <li>Vendas</li><li>Assistência técnica</li><li>Peças</li><li>Acessórios</li>
+    </ul>
+    <div class="rv"><a class="btn btn-primary" href="#loja">Conhecer a Mobi MG <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 9h15M10 3l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+
+<section class="store" id="loja" aria-labelledby="l-t">
+  <div class="wrap">
+    <figure class="wipe">
+      <img src="assets/loja_fachada.webp" srcset="assets/loja_fachada-s.webp 800w, assets/loja_fachada.webp 1500w" sizes="(max-width:900px) 92vw, 55vw" alt="Fachada da loja Mobi MG Mobilidade Urbana, com scooters na vitrine" width="1500" height="844" loading="lazy">
+    </figure>
+    <div class="store-info rv">
+      <h2 class="d h-lg" id="l-t" data-split>Venha conhecer a Mobi MG.</h2>
+      <p class="lead">Veja os modelos de perto, tire suas dúvidas e saia rodando.</p>
+      <dl class="addr">
+        <div><dt>Cidade</dt><dd>São Lourenço — MG</dd></div>
+        <div><dt>WhatsApp</dt><dd><a data-wa href="#">(35) 99266-0411</a></dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/mobi_mg_/" target="_blank" rel="noopener">@mobi_mg_</a></dd></div>
+      </dl>
+      <div class="store-ctas">
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Mobi+MG+Scooter+e+Moto+El%C3%A9trica+S%C3%A3o+Louren%C3%A7o+MG" target="_blank" rel="noopener">Como chegar <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 9h15M10 3l6 6-6 6"/></svg></a>
+        <a class="btn btn-line dark" data-wa href="#">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="avaliacoes" aria-labelledby="r-t" hidden>
+  <div class="wrap">
+    <div class="sec-head"><h2 class="d h-lg" id="r-t">Quem conhece, confia.</h2></div>
+    <div class="r-track" id="r-track"></div>
+  </div>
+</section>
+
+<section class="final" aria-labelledby="f-t">
+  <img src="assets/acao.webp" srcset="assets/acao-s.webp 800w, assets/acao.webp 1344w" sizes="100vw" alt="" width="1344" height="571" loading="lazy">
+  <div class="wrap">
+    <h2 class="d h-xl" id="f-t" data-split style="max-width:14ch">Pronto para mudar a forma de se mover?</h2>
+    <p class="lead rv">Conheça a Mobi MG e descubra uma nova experiência em mobilidade.</p>
+    <div class="rv"><a class="btn btn-primary" data-wa href="#">Falar com a Mobi MG <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 9h15M10 3l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <div>
+        <a href="#inicio" class="logo" aria-label="Mobi MG — início"><img class="logo-img" src="assets/logo.webp" alt="Mobi MG" width="394" height="230"></a>
+        <p class="ftr-tag">Scooter e moto elétrica. Entre nesse movimento.</p>
+      </div>
+      <div>
+        <h4>Loja</h4>
+        <ul><li>São Lourenço — MG</li><li><a href="https://www.google.com/maps/search/?api=1&query=Mobi+MG+Scooter+e+Moto+El%C3%A9trica+S%C3%A3o+Louren%C3%A7o+MG" target="_blank" rel="noopener">Google Maps</a></li></ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul><li><a data-wa href="#">WhatsApp</a></li><li><a href="https://www.instagram.com/mobi_mg_/" target="_blank" rel="noopener">Instagram</a></li></ul>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <span>© <span id="yr">2026</span> Mobi MG. Todos os direitos reservados.</span>
+      <span>Feito por Digital Beyond</span>
+    </div>
+  </div>
+</footer>
+
+<div class="wa-bar" id="wa-bar"><a class="btn btn-primary" data-wa href="#">Falar no WhatsApp</a></div>
+
+<dialog class="mdl" id="mdl" aria-labelledby="mdl-t">
+  <button class="mdl-close" id="mdl-x" aria-label="Fechar"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2l14 14M16 2L2 16"/></svg></button>
+  <div class="mdl-in">
+    <div class="mdl-gal">
+      <div class="mdl-main"><img id="mdl-img" alt=""></div>
+      <div class="mdl-thumbs" id="mdl-thumbs"></div>
+    </div>
+    <div class="mdl-info">
+      <h2 class="d h-lg" id="mdl-t"></h2>
+      <p class="tag" id="mdl-tag"></p>
+      <ul class="mdl-list" id="mdl-list"></ul>
+      <a class="btn btn-primary" id="mdl-wa" href="#" target="_blank" rel="noopener" style="width:100%">Tenho interesse <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 9h15M10 3l6 6-6 6"/></svg></a>
+      <p class="mdl-note">*Autonomia máxima informada pelo fabricante; varia conforme peso, relevo e modo de condução.</p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const WA='5535992660411';
+const waLink=m=>'https://wa.me/'+WA+'?text='+encodeURIComponent(m);
+const MSG='Olá! Vim pelo site e quero saber mais sobre as scooters da Mobi MG.';
+
+/* Avaliações reais: preencha e a seção aparece sozinha.
+   Ex.: {nome:'Nome da pessoa', nota:5, texto:'Comentário copiado do Google.'} */
+const REVIEWS=[];
+
+const MODELS={"jet": {"name": "JET", "desc": "Linhas angulares, piso plano e bagageiro reforçado pronto para baú. Uma scooter de visual esportivo para o vai e vem da cidade.", "specs": ["Motor de 1000W", "Velocidade de até 32 km/h", "Autonomia de até 40 km*", "Bateria de lítio 60V 20Ah removível", "Recarga em tomada comum, de 6 a 7 horas", "Freios a disco dianteiro e traseiro", "Alarme com trava de motor", "Farol, setas e lanterna", "Piso plano e assento amplo", "Bagageiro reforçado, pronto para baú", "Dispensa CNH e emplacamento"], "imgs": ["jet0", "jet1", "jet2"]}, "x12": {"name": "X12", "desc": "Compacta, com visual de pneus largos, painel digital e proteção IP65 contra água.", "specs": ["Motor de 1000W", "Velocidade de até 32 km/h, com 3 níveis", "Autonomia de até 40 km*", "Bateria de lítio 60V 20Ah removível", "Recarga de 5 a 7 horas, carregador bivolt", "Suporta até 150 kg", "Freio a disco dianteiro e hidráulico traseiro", "Amortecedor a gás", "Liga e desliga com cartão NFC", "Painel digital em LED", "Farol e setas em LED com 3 intensidades", "Proteção IP65 contra água", "Banco duplo com encosto e rodas de liga leve", "Alarme com trava de motor", "Dispensa CNH e emplacamento"], "imgs": ["x120", "x121", "x122", "x123"]}, "dot": {"name": "DOT", "desc": "A ficha mais completa do catálogo: pulseira NFC, controle remoto, alarme com sirene e capacidade para até 180 kg.", "specs": ["Motor de 1000W", "Velocidade de até 32 km/h, com 3 níveis", "Autonomia de até 55 km*", "Bateria de lítio 60V 20Ah removível", "Recarga de 5 a 7 horas, carregador bivolt", "Capacidade de carga de até 180 kg", "Pneus sem câmara, aro 12\" na frente e 10\" atrás", "Freio a disco hidráulico dianteiro e traseiro", "Amortecedor duplo dianteiro e traseiro", "Partida por cartão ou pulseira NFC, chave e controle remoto", "Alarme antifurto com sirene e trava de segurança", "Painel digital com velocímetro, bateria e hodômetro", "Marcha à ré", "Farol full LED, setas em LED e luz de freio", "Bagageiro reforçado com baú removível incluso", "Resistente a chuva leve e garoa (não é à prova d'água)", "Dispensa CNH e emplacamento"], "imgs": ["dot0", "dot1", "dot2"]}, "baw": {"name": "BAW", "desc": "Prática para compras e trajetos do dia, com chave NFC e alarme embutido.", "specs": ["Motor de 1000W", "Velocidade de até 32 km/h", "Autonomia de até 55 km*", "Bateria de lítio 60V 20Ah removível", "Entrada USB", "Chave NFC", "Alarme antifurto embutido", "Suspensão hidráulica na frente e molas atrás", "Freio a tambor", "Quadro em aço", "Dispensa CNH e emplacamento"], "imgs": ["baw0", "baw1", "baw2", "baw3"]}, "soma": {"name": "SOMA", "desc": "Quadro laranja, bateria que sai pelo banco com alça e assento de garupa para levar mais alguém.", "specs": ["Motor de 1000W", "Velocidade de até 32 km/h", "Autonomia de até 40 km*", "Bateria de lítio 60V 20Ah removível pelo banco, com alça", "Recarga bivolt em tomada comum", "Partida por cartão NFC, com chave física reserva", "Farol em LED", "Baú traseiro de 30 litros", "Assento de garupa", "Suspensão traseira dupla", "Freio a disco dianteiro e tambor traseiro", "Dispensa CNH e emplacamento"], "imgs": ["soma0", "soma1", "soma2", "soma3", "soma4"]}, "mia": {"name": "MIA TRI", "desc": "O triciclo da linha, com assento auxiliar rebatível e suspensão hidráulica. Para quem quer estabilidade acima de tudo.", "specs": ["Motor de 800W", "Velocidade de até 32 km/h", "Autonomia de até 40 km*", "Bateria de lítio 60V 20Ah removível pelo assento", "Recarga em tomada 110/220V", "Carga máxima de 180 kg", "Peso do veículo: 87,75 kg", "Sobe rampas de até 12°", "Freio a disco dianteiro e tambor traseiro", "Suspensão hidráulica dianteira e traseira", "Painel digital, setas e luz de freio", "Assento auxiliar rebatível", "Rodas de liga leve", "Baú integrado, conforme a versão", "Dispensa CNH e emplacamento"], "imgs": ["mia0", "mia1", "mia2", "mia3", "mia4"]}, "bigtri": {"name": "BIGTRI", "desc": "O triciclo maior da linha: banco com encosto e apoio de braço, cesto na frente e baú atrás. Motor de 1000W e até 55 km de autonomia.", "specs": ["Motor de 1000W", "Velocidade de até 32 km/h, com seletor de velocidade", "Autonomia de até 55 km*", "Bateria de lítio 60V 20Ah", "Recarga estimada de 5 a 6 horas, carregador bivolt", "Transporta até 3 pessoas", "Cadeirinha de criança", "Carga máxima de 180 kg", "Rodas de liga leve aro 10\", pneu 3.00", "Acelerador de punho", "Baú traseiro", "Painel digital", "Marcha à ré", "Alarme antifurto que trava as rodas ao disparar", "Setas, farol, buzina e retrovisores", "Resistente a chuva fraca e garoa (não é à prova d'água)", "Dispensa CNH e emplacamento"], "imgs": ["bigtri0", "bigtri1", "bigtri2", "bigtri3"]}};
+const IMGS={"jet0": "assets/jet0.webp", "jet1": "assets/jet1.webp", "jet2": "assets/jet2.webp", "x120": "assets/x120.webp", "x121": "assets/x121.webp", "x122": "assets/x122.webp", "x123": "assets/x123.webp", "dot0": "assets/dot0.webp", "dot1": "assets/dot1.webp", "dot2": "assets/dot2.webp", "baw0": "assets/baw0.webp", "baw1": "assets/baw1.webp", "baw2": "assets/baw2.webp", "baw3": "assets/baw3.webp", "soma0": "assets/soma0.webp", "soma1": "assets/soma1.webp", "soma2": "assets/soma2.webp", "soma3": "assets/soma3.webp", "soma4": "assets/soma4.webp", "bigtri0": "assets/bigtri0.webp", "bigtri1": "assets/bigtri1.webp", "bigtri2": "assets/bigtri2.webp", "bigtri3": "assets/bigtri3.webp", "mia0": "assets/mia0.webp", "mia1": "assets/mia1.webp", "mia2": "assets/mia2.webp", "mia3": "assets/mia3.webp", "mia4": "assets/mia4.webp"};
+
+document.querySelectorAll('[data-wa]').forEach(a=>{a.href=waLink(MSG);a.target='_blank';a.rel='noopener'});
+document.querySelectorAll('[data-interest]').forEach(a=>{a.href=waLink('Olá! Tenho interesse na '+a.dataset.interest+'. Pode me passar mais informações?');a.target='_blank';a.rel='noopener'});
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const FINE=matchMedia('(hover:hover) and (pointer:fine)').matches;
+
+/* títulos quebrados em palavras */
+document.querySelectorAll('[data-split]').forEach(h=>{
+  h.setAttribute('aria-label',h.textContent.trim());
+  h.innerHTML=h.textContent.trim().split(/\s+/).map((w,i)=>'<span class="w" aria-hidden="true"><span style="transition-delay:'+(i*55)+'ms">'+w+'</span></span>').join(' ');
+  h.classList.add('split');
+});
+
+/* primeira tela */
+requestAnimationFrame(()=>requestAnimationFrame(()=>document.documentElement.classList.add('ready')));
+
+/* números contando */
+function countUp(el){const to=+el.dataset.count,suf=el.dataset.suf||'',t0=performance.now(),d=1400;
+  (function f(t){const p=Math.min(1,(t-t0)/d),e=1-Math.pow(1-p,4);el.textContent=Math.round(to*e)+suf;if(p<1)requestAnimationFrame(f)})(t0)}
+
+/* revelar ao rolar */
+const targets=document.querySelectorAll('.rv,.split,.wipe,.drive,.b-item,[data-count]');
+if('IntersectionObserver' in window && !RM){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;
+    el.classList.add('in');if(el.dataset.count)countUp(el);io.unobserve(el)}),{rootMargin:'0px 0px -10% 0px'});
+  document.querySelectorAll('.card').forEach((c,i)=>{c.style.transitionDelay=(i%3)*90+'ms';c.classList.add('wipe')});
+  document.querySelectorAll('.b-item').forEach((b,i)=>b.style.transitionDelay=i*90+'ms');
+  document.querySelectorAll('.rv,.split,.wipe,.drive,.b-item,[data-count]').forEach(el=>io.observe(el));
+}else targets.forEach(el=>el.classList.add('in'));
+
+/* modo leve: celular, aparelho fraco ou economia de dados */
+const conn=navigator.connection||{};
+const LITE=RM||matchMedia('(max-width:900px),(pointer:coarse)').matches||(navigator.hardwareConcurrency||8)<=2||(navigator.deviceMemory||8)<=2||conn.saveData===true;
+if(LITE)document.documentElement.classList.add('lite');
+
+/* header, progresso, parallax e letreiro — só roda quando algo muda */
+const hdr=document.getElementById('hdr'),bar=document.getElementById('wa-bar'),hero=document.getElementById('inicio'),prog=document.getElementById('prog');
+const expImg=document.querySelector('.exp-img img'),storeImg=document.querySelector('.store figure img'),finalImg=document.querySelector('.final img');
+const mq=document.querySelector('.mq'),rows=[...document.querySelectorAll('.mq-row')];
+const bikesW=document.querySelector('.stage-bikes'),namesW=document.querySelector('.stage-names');
+let lastY=scrollY,ticking=false,heroH=hero.offsetHeight,docH=document.documentElement.scrollHeight,vh=innerHeight;
+let mx=0,my=0,tx=0,ty=0;
+const req=()=>{if(!ticking){ticking=true;requestAnimationFrame(frame)}};
+const inView=r=>r.bottom>0&&r.top<vh;
+function frame(){
+  ticking=false;
+  const y=scrollY,dy=y-lastY;
+  /* leituras primeiro */
+  const rE=expImg.parentElement.getBoundingClientRect(),rS=storeImg.parentElement.getBoundingClientRect(),rF=finalImg.parentElement.getBoundingClientRect(),rM=mq.getBoundingClientRect();
+  /* depois escritas */
+  hdr.classList.toggle('solid',y>40);
+  if(!document.body.classList.contains('menu-open')){if(dy>3&&y>vh*.6)hdr.classList.add('hide');else if(dy<-3||y<vh*.6)hdr.classList.remove('hide')}
+  bar.classList.toggle('show',y>heroH*.8);
+  prog.style.transform='scaleX('+Math.min(1,y/Math.max(1,docH-vh))+')';
+  if(!RM){
+    if(inView(rM)){const p=(vh-rM.top)/(vh+rM.height);rows[0].style.transform='translate3d('+(-p*38)+'%,0,0)';rows[1].style.transform='translate3d('+(p*38-45)+'%,0,0)'}
+    if(!LITE){
+      if(y<heroH){mx+=(tx-mx)*.08;my+=(ty-my)*.08;bikesW.style.transform='translate3d('+(mx*16)+'px,'+(y*.16+my*10)+'px,0)';namesW.style.transform='translate3d('+(-mx*28)+'px,'+(y*.3)+'px,0)';
+        if(Math.abs(tx-mx)>.002||Math.abs(ty-my)>.002)req()}
+      if(inView(rE)){const p=(rE.top+rE.height/2-vh/2)/vh;expImg.style.transform='translate3d(0,'+(p*-30)+'px,0)'}
+      if(inView(rS)){const p=(rS.top+rS.height/2-vh/2)/vh;storeImg.style.transform='translate3d(0,'+(p*-40)+'px,0) scale(1.1)'}
+      if(inView(rF)){const p=Math.min(1,Math.max(0,(vh-rF.top)/(vh+rF.height)));finalImg.style.transform='scale('+(1.25-.25*p)+')'}
+    }
+  }
+  lastY=y;
+}
+addEventListener('scroll',req,{passive:true});
+addEventListener('resize',()=>{vh=innerHeight;heroH=hero.offsetHeight;docH=document.documentElement.scrollHeight;req()},{passive:true});
+addEventListener('load',()=>{docH=document.documentElement.scrollHeight;req()});
+req();
+
+/* carrossel do hero */
+if(FINE&&!LITE)hero.addEventListener('pointermove',e=>{tx=e.clientX/innerWidth-.5;ty=e.clientY/innerHeight-.5;req()},{passive:true});
+const bikes=[...document.querySelectorAll('.bike')],names=[...document.querySelectorAll('.stage-names span')],pips=[...document.querySelectorAll('.pip')];
+const metaInfo=document.getElementById('meta-info'),hex=document.getElementById('hex');
+const loadBike=b=>{const im=b&&b.querySelector('img[data-src]');if(im){if(im.dataset.srcset){im.sizes=im.getAttribute('sizes')||'';im.srcset=im.dataset.srcset}im.src=im.dataset.src;im.removeAttribute('data-src');if(im.decode)im.decode().catch(()=>{})}};
+let cur=-1;
+function go(i){
+  const n=bikes.length;i=(i+n)%n;if(i===cur)return;const prev=cur;cur=i;
+  loadBike(bikes[i]);loadBike(bikes[(i+1)%n]);
+  bikes.forEach((b,j)=>{b.classList.remove('out');if(j===prev)b.classList.add('out');b.classList.toggle('on',j===i)});
+  names.forEach((s,j)=>s.classList.toggle('on',j===i));
+  pips.forEach((p,j)=>{p.classList.remove('on');p.setAttribute('aria-current',j===i)});
+  void pips[i].offsetWidth;pips[i].classList.add('on');
+  const d=bikes[i].dataset;
+  const set=()=>{document.getElementById('meta-count').textContent=String(i+1).padStart(2,'0')+' / '+String(n).padStart(2,'0');
+    document.getElementById('meta-name').textContent=d.name;document.getElementById('meta-motor').textContent=d.motor;
+    document.getElementById('meta-aut').textContent=d.aut;document.getElementById('meta-link').dataset.model=d.id;metaInfo.classList.remove('swap')};
+  if(prev<0)set();else{metaInfo.classList.add('swap');setTimeout(set,240)}
+}
+pips.forEach((p,j)=>{p.addEventListener('click',()=>go(j));p.querySelector('i').addEventListener('animationend',()=>go(cur+1))});
+const setPaused=v=>{hero.classList.toggle('paused',v);hex.setAttribute('aria-label',v?'Continuar apresentação':'Pausar apresentação')};
+hex.addEventListener('click',()=>setPaused(!hero.classList.contains('paused')));
+if(RM)setPaused(true);
+if('IntersectionObserver' in window)new IntersectionObserver(([e])=>hero.classList.toggle('off',!e.isIntersecting)).observe(hero);
+document.addEventListener('visibilitychange',()=>hero.classList.toggle('off',document.hidden));
+/* deslizar o dedo troca o modelo */
+let sx=null,sy=0;
+const vis=document.querySelector('.stage-vis');
+vis.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
+vis.addEventListener('touchend',e=>{if(sx===null)return;const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;
+  if(Math.abs(dx)>40&&Math.abs(dx)>Math.abs(dy)*1.3)go(cur+(dx<0?1:-1));sx=null},{passive:true});
+setTimeout(()=>go(0),RM?0:250);
+/* demais modelos carregam depois que a página abriu */
+addEventListener('load',()=>setTimeout(()=>bikes.forEach(loadBike),1200));
+
+/* efeitos de ponteiro (só mouse) */
+if(FINE&&!LITE){
+  document.querySelectorAll('.btn-primary,.btn-line').forEach(b=>{
+    b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.18)+'px,'+((e.clientY-r.top-r.height/2)*.3)+'px)'});
+    b.addEventListener('pointerleave',()=>{b.style.transition='transform .5s cubic-bezier(.2,.7,.2,1),background-color .2s,border-color .2s';b.style.transform='';setTimeout(()=>b.style.transition='',500)});
+  });
+  document.querySelectorAll('.card-media').forEach(m=>{const img=m.querySelector('img');
+    m.addEventListener('pointermove',e=>{const r=m.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+      img.style.transform='perspective(900px) rotateY('+(x*10)+'deg) rotateX('+(-y*8)+'deg) scale(1.06)'});
+    m.addEventListener('pointerleave',()=>img.style.transform='');
+  });
+}
+
+/* menu mobile */
+const burger=document.getElementById('burger');
+const setMenu=o=>{document.body.classList.toggle('menu-open',o);hdr.classList.toggle('nav-open',o);hdr.classList.remove('hide');burger.setAttribute('aria-expanded',o);burger.setAttribute('aria-label',o?'Fechar menu':'Abrir menu');document.body.style.overflow=o?'hidden':''};
+burger.addEventListener('click',()=>setMenu(!document.body.classList.contains('menu-open')));
+document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+addEventListener('keydown',e=>{if(e.key==='Escape')setMenu(false)});
+
+/* avaliações */
+if(REVIEWS.length){
+  const t=document.getElementById('r-track');
+  REVIEWS.forEach(r=>{const c=document.createElement('figure');c.className='r-card';
+    c.innerHTML='<div class="r-stars" aria-label="'+r.nota+' de 5 estrelas">'+'★'.repeat(r.nota)+'</div><blockquote></blockquote><cite></cite>';
+    c.querySelector('blockquote').textContent=r.texto;c.querySelector('cite').textContent=r.nome;t.appendChild(c)});
+  document.getElementById('avaliacoes').hidden=false;
+}
+
+/* ficha do modelo */
+const mdl=document.getElementById('mdl'),mImg=document.getElementById('mdl-img'),thumbs=document.getElementById('mdl-thumbs');
+function show(m,i){mImg.src=IMGS[m.imgs[i]];mImg.alt=m.name+', foto '+(i+1)+' de '+m.imgs.length;
+  thumbs.querySelectorAll('button').forEach((b,j)=>b.setAttribute('aria-current',j===i))}
+function openModel(id){const m=MODELS[id];
+  document.getElementById('mdl-t').textContent=m.name;
+  document.getElementById('mdl-tag').textContent=m.desc;
+  const ul=document.getElementById('mdl-list');ul.innerHTML='';
+  m.specs.forEach(s=>{const li=document.createElement('li');li.textContent=s;ul.appendChild(li)});
+  document.getElementById('mdl-wa').href=waLink('Olá! Tenho interesse na '+m.name+'. Pode me passar mais informações?');
+  thumbs.innerHTML='';
+  m.imgs.forEach((k,i)=>{const b=document.createElement('button');b.setAttribute('aria-label','Ver foto '+(i+1));
+    b.innerHTML='<img alt="" src="'+IMGS[k]+'">';b.addEventListener('click',()=>show(m,i));thumbs.appendChild(b)});
+  show(m,0);
+  mdl.showModal?mdl.showModal():mdl.setAttribute('open','');
+}
+document.querySelectorAll('[data-model]').forEach(b=>b.addEventListener('click',()=>openModel(b.dataset.model)));
+document.getElementById('mdl-x').addEventListener('click',()=>mdl.close());
+mdl.addEventListener('click',e=>{if(e.target===mdl)mdl.close()});
+</script>
+</body>
+</html>
